@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Test</title>
+</head>
+<body>
+    <h3>LOL</h3>
+    <div id="id1" th:replace="index::.text"></div>
+    <ul th:fragment="user">
+        <li th:each="user : ${users}" th:text="${user}"></li>
+    </ul>
+</body>
+</html>

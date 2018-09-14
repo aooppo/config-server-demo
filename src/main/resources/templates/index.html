@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>demo</title>
+</head>
+<body>
+    <h1 id="test1">Test1</h1>
+    <p class="text">it's p in index page</p>
+    <h2 th:text="${1+5}">HAHA</h2>
+    <div th:replace="emp/list::emp"></div>
+</body>
+</html>
